@@ -22,3 +22,21 @@ garg. CLI. PyPi: https://pypi.org/project/pygetpapers/
 * https://github.com/petermr/crops. NIPGR-intern projects on crops. Minicorpora and dictionaries for terpene synthases
 * https://github.com/petermr/opendiagram. Adaptation of `pyamiimage` to extract data from diagrams, especially materials science/batteries
 * https://github.com/petermr/dictionary. Software for distributed dictionaries and many dictionaries
+
+
+# active Python projects:
+
+For context:
+We have 4 packages (if that's the right word).  They are largely standalone but can have useful library routines. They all share a common data structure on disk (simply named directories). This means that state is less important and often held on the filesystem. It also means that data can be further manipulated by Unix tools and other utilities. This is very fluid as we are constantly adding new data substructures. (I developed much of this in Java - https://github.com/petermr/ami3/blob/master/README.md) . The top directory is a `CProject` and its document children are called `CTree`s as they are useful split into many subdirectory trees.
+
+Each package has a maintainer. These are all volunteers. Their Python is all self-taught . There are also interns - mixture of compsci/engineers/plant_sci who have a 3-month stay. They test the tools, develop resources, explore text-mining, NLP, image analysis, machine-learning, etc. They are encouraged to use the packages, link them into Python scripts or Notebooks but don't have time for serious development. (They might add readers or exporters).
+
+* pygetpapers , Ayush Garg. https://github.com/petermr/pygetpapers . Searches and downloads articles from repositories. Standalone, but the results may be used by docanalysis or possibly imageanalysis. Can be called from other tools. 
+
+* docanalysis. Shweata Hegde. https://github.com/petermr/docanalysis . Ingests CProjects and carries out text-analysis of documents, including sectioning, NLP/text-mining, vocabulary generation. Uses NLTK and other Python tools for many operations, and spaCy, scispaCy for annotation of entities. Outputs summary data, correlations, word-dictionaries. Links entities to Wikidata.
+
+* pyamiimage, Anuv Chakroborty + PMR. https://github.com/petermr/pyamiimage . Ingests Figures/images,  applies many image processing techniques (erode-dilate, colour quantization, skeletons, etc.), extracts words (Tesseract) , extracts lines and symbols (uses sknw/NetworkX) and recreates semantic diagrams (not finished)
+
+* py4ami . PMR. https://github.com/petermr/pyamiimage . Translation of ami3(J) to Python. Processes CProjects to extract and combine primitives into semantic objects. Some functionality overlaps with docanalysis and imageanalysis. Includes libraries (e.g. for Wikimedia) and includes prototype GUI in tkinter, and a complex structure of word-dictionaries covering science and related disciplines. (Note the project is called pyami locally but there is already a PyAMI project so there it is called py4ami)
+
+All packages aim to have a common commandline approach, use config files, generate and process CProjects (e.g. iterating over CTrees and applying filters, transformers, map/reduce, etc.).  All 4 packages have been uploaded to PyPI
