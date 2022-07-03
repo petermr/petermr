@@ -37,7 +37,7 @@ Each package has a maintainer. These are all volunteers. Their Python is all sel
 
 * pyamiimage, Anuv Chakroborty + PMR. https://github.com/petermr/pyamiimage . Ingests Figures/images,  applies many image processing techniques (erode-dilate, colour quantization, skeletons, etc.), extracts words (Tesseract) , extracts lines and symbols (uses sknw/NetworkX) and recreates semantic diagrams (not finished)
 
-* py4ami . PMR. https://github.com/petermr/pyamiimage . Translation of ami3(J) to Python. Processes CProjects to extract and combine primitives into semantic objects. Some functionality overlaps with docanalysis and imageanalysis. Includes libraries (e.g. for Wikimedia) and includes prototype GUI in tkinter, and a complex structure of word-dictionaries covering science and related disciplines. (Note the project is called pyami locally but there is already a PyAMI project so there it is called py4ami)
+* py4ami . PMR. https://github.com/petermr/py4ami . Translation of ami3(J) to Python. Processes CProjects to extract and combine primitives into semantic objects. Some functionality overlaps with docanalysis and imageanalysis. Includes libraries (e.g. for Wikimedia) and includes prototype GUI in tkinter, and a complex structure of word-dictionaries covering science and related disciplines. (Note the project is called pyami locally but there is already a PyAMI project so there it is called py4ami)
 
 All packages aim to have a common commandline approach, use config files, generate and process CProjects (e.g. iterating over CTrees and applying filters, transformers, map/reduce, etc.).  All 4 packages have been uploaded to PyPI
 
