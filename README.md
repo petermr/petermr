@@ -9,7 +9,7 @@ This special repo is to coordinate navigation and discussion
 
 # discussion lists
 
-The "Discussions" for this repo https://github.com/petermr/petermr/discussions include discussions for the other repos and are of indicated byb their name. They may replace our (private) Slack for all public-facing material (private project management will remain on Slack). 
+The "Discussions" for this repo https://github.com/petermr/petermr/discussions include discussions for the other repos and are of indicated by their name. They may replace our (private) Slack for all public-facing material (private project management will remain on Slack). 
 
 # active repos
 * https://github.com/petermr/pygetpapers. automatic downloading of articles and preprints in bulk. Pioneered by Rik Smith-Unna and ported to Python by @ayush
