@@ -41,6 +41,10 @@ Each package has a maintainer. These are all volunteers. Their Python is all sel
 
 All packages aim to have a common commandline approach, use config files, generate and process CProjects (e.g. iterating over CTrees and applying filters, transformers, map/reduce, etc.).  All 4 packages have been uploaded to PyPI
 
+# basicTest
+
+Checks that the Python environment works (independently of the applications)
+https://github.com/petermr/basicTest/blob/main/README.md
 
 # presentations
 
