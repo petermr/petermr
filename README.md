@@ -16,7 +16,7 @@ The "Discussions" for this repo https://github.com/petermr/petermr/discussions i
 garg. CLI. PyPi: https://pypi.org/project/pygetpapers/ 
 * https://github.com/petermr/pyami. Port of Java https://github.com/petermr/ami3 to Python (@petermr). CLI. Includes a prototype GUI in `tkinter`. PyPi: https://pypi.org/project/py4ami/ (Note there is already an unrelated `pyAMI` in `PyPi` so in that namespace we are `py4ami`, but on Github it's `pyami`)
 * https://github.com/petermr/pyamiimage. Analysis of scientific duagrams (@petermr, @anuvc). No CLI, or PyPI yet. 
-* https://github.com/petermr/docanalysis. Text-based analysis of scientific articles (@shweatahegde). CLI under dev. No PyPi yet.
+* https://github.com/petermr/docanalysis. Text-based analysis of scientific articles (@shweatahegde). [PyPI] (https://pypi.org/project/docanalysis/) 
 * https://github.com/petermr/cevopen. Projects, dictionaries and outreach for analysing articles in plant sciences.
 * https://github.com/petermr/openvirus. Projects, dictionaries and outreach for analysing articles on viral epidemics.
 * https://github.com/petermr/crops. NIPGR-intern projects on crops. Minicorpora and dictionaries for terpene synthases
