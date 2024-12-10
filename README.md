@@ -14,7 +14,7 @@ The "Discussions" for this repo https://github.com/petermr/petermr/discussions i
 # active repos
 * https://github.com/petermr/pygetpapers. automatic downloading of articles and preprints in bulk. Pioneered by Rik Smith-Unna and ported to Python by @ayush
 garg. CLI. PyPi: https://pypi.org/project/pygetpapers/ 
-* https://github.com/petermr/pyami. Port of Java https://github.com/petermr/ami3 to Python (@petermr). CLI. Includes a prototype GUI in `tkinter`. PyPi: https://pypi.org/project/py4ami/ (Note there is already an unrelated `pyAMI` in `PyPi` so in that namespace we are `py4ami`, but on Github it's `pyami`)
+* https://github.com/petermr/amilib. (Was https://github.com/petermr/pyami). Port of Java https://github.com/petermr/ami3 to Python (@petermr). CLI. Includes a prototype GUI in `tkinter`. PyPi: https://pypi.org/project/py4ami/ (Note there is already an unrelated `pyAMI` in `PyPi` so in that namespace we are `py4ami`, but on Github it's `pyami`)
 * https://github.com/petermr/pyamiimage. Analysis of scientific duagrams (@petermr, @anuvc). No CLI, or PyPI yet. 
 * https://github.com/petermr/docanalysis. Text-based analysis of scientific articles (@shweatahegde). [PyPI](https://pypi.org/project/docanalysis/) 
 * https://github.com/petermr/cevopen. Projects, dictionaries and outreach for analysing articles in plant sciences.
